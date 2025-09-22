@@ -1,14 +1,22 @@
-# calculator
-Project Description
+# Calculator CLI
 
-This project is a Command-Line Calculator built in Python to perform basic arithmetic operations in an interactive way.
-It supports addition, subtraction, multiplication, and division, each implemented as a separate function for modularity and clarity.
-The calculator includes robust input validation, ensuring users can only enter valid numbers and menu choices.
-It also gracefully handles division by zero without crashing, displaying a user-friendly error message.
-The program runs in a loop until the user chooses to exit, making it practical for repeated calculations.
-No external libraries or datasets are required — it works out of the box with any standard Python installation.
-The project demonstrates clean coding practices, error handling, and user interaction in a CLI environment.
-It is a good example of a beginner-friendly Python project that showcases fundamental programming concepts.
-Screenshots and a simple README are included for clarity and documentation.
-Future improvements could include adding calculation history, parsing full expressions, or integrating with a GUI.
-This repository serves as a hands-on mini-project for learners exploring Python basics and CLI app development.
+## Overview
+This is a simple command-line calculator written in Python. It supports the four basic arithmetic operations (addition, subtraction, multiplication, division) with input validation and error handling.
+
+## Features
+- Separate functions for each operation.
+- Input validation for numbers and menu choices.
+- Handles division by zero with an error message instead of crashing.
+- Loops until the user chooses to exit.
+
+## How to Run
+```bash
+python3 calculator.py
+```
+
+## Files Included
+- `calculator.py` : Main CLI calculator program.
+- `README.md` : Explanation of the project.
+
+## Notes
+No external datasets or libraries are used. Screenshots can be taken while running the program in a terminal to demonstrate functionality.
